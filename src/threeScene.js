@@ -3,10 +3,8 @@ import { OBJLoader } from "three/examples/jsm/loaders/OBJLoader";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 export function createThreeScene(containerSelector, objPath) {
-  // Target container for the 3D model
   const container = document.querySelector(containerSelector);
 
-  // Initialize scene, camera, and renderer
   const scene = new THREE.Scene();
   scene.background = new THREE.Color(0xd3d3d3);
 
@@ -22,11 +20,9 @@ export function createThreeScene(containerSelector, objPath) {
   renderer.setSize(container.clientWidth, container.clientHeight);
   container.appendChild(renderer.domElement);
 
-  // Add grid helper
   const gridHelper = new THREE.GridHelper(10, 10, 0x000000, 0x808080);
   scene.add(gridHelper);
 
-  // Add lighting
   const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
   directionalLight.position.set(5, 5, 5);
   scene.add(directionalLight);
@@ -38,14 +34,12 @@ export function createThreeScene(containerSelector, objPath) {
   pointLight.position.set(2, 5, 5);
   scene.add(pointLight);
 
-  // Add OrbitControls
   const controls = new OrbitControls(camera, renderer.domElement);
-  controls.enableDamping = true; // Smooth rotation
+  controls.enableDamping = true;
   controls.dampingFactor = 0.05;
   controls.target.set(0, 0, 0);
   controls.update();
 
-  // Load OBJ file
   const objLoader = new OBJLoader();
 
   objLoader.load(
@@ -55,9 +49,9 @@ export function createThreeScene(containerSelector, objPath) {
         if (child.isMesh) {
           child.geometry.computeVertexNormals();
           child.material = new THREE.MeshStandardMaterial({
-            color: 0xaaaaaa, // Default material color
-            wireframe: false, // toggle wireframe
-            transparent: true, // toggle transparency
+            color: 0xaaaaaa,
+            wireframe: false,
+            transparent: true,
           });
         }
       });
@@ -75,7 +69,6 @@ export function createThreeScene(containerSelector, objPath) {
     }
   );
 
-  // Animation loop
   function animate() {
     requestAnimationFrame(animate);
     controls.update();
@@ -83,7 +76,6 @@ export function createThreeScene(containerSelector, objPath) {
   }
   animate();
 
-  // Handle window resize
   window.addEventListener("resize", () => {
     camera.aspect = container.clientWidth / container.clientHeight;
     camera.updateProjectionMatrix();
