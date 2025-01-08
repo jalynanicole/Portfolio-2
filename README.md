@@ -74,10 +74,10 @@ If you don’t already have a GitHub account, create one at [github.com](https:/
 
 ### 5. Set Up a Vercel Account
 
-1. Go to [vercel.com](https://vercel.com/) and sign up for a free account.
-2. After signing up, connect your Vercel account to GitHub
-
----
+1. Go to [vercel.com](https://vercel.com/) and click start deploying.  
+     ![alt text](image-10.png)
+2. Click continue with github and login with your github account  
+     ![alt text](image-11.png)
 
 ### 6. Install Project Dependencies and Running Locally
 
@@ -115,12 +115,14 @@ If you don’t already have a GitHub account, create one at [github.com](https:/
 
 2. **Deploy on Vercel:**
 
-   - On the Vercel dashboard, click **Add New Project**.
-   - Import the repository from GitHub.
+   - Import the repository from GitHub.  
+      ![alt text](image-12.png)  
    - Follow the setup instructions and click **Deploy**.
+      ![alt text](image-13.png)
 
 3. **Access Your Portfolio:**
-   - Once deployed, access your live portfolio using the URL provided by Vercel.
+   - Once deployed, access your live portfolio using the URL provided by Vercel.  
+      ![alt text](image-14.png)
 
 ---
 
