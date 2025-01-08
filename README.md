@@ -1,10 +1,12 @@
 # Portfolio Web App Template 2
 
 ![alt text](image.png)  
-Link for Template 1: https://github.com/jzmasiv/Architecural-Student-Portfolio-1
+[Website Preview for Template 1](https://architecural-student-portfolio-1.vercel.app/)  
+[Github Link for Template 1](https://github.com/jzmasiv/Architecural-Student-Portfolio-1)  
 
 ![alt text](image-1.png)  
-Link for Template 2: https://github.com/jugsidhu/Architectural-Student-Portfolio-2
+[Website Preview for Template 1](https://architectural-student-portfolio-2.vercel.app/)  
+[Github Link for Template 1](https://github.com/jugsidhu/Architectural-Student-Portfolio-2)  
 
 This is a personal portfolio web application built using [Vite](https://vitejs.dev/). It showcases one's projects, skills, and contact information as a passionate architectural student.
 
@@ -19,10 +21,17 @@ Follow these step-by-step instructions to deploy your portfolio on [Vercel](http
 ### 1. Download and Install Node.js
 
 1. Go to the [Node.js download page](https://nodejs.org/).
-2. Download the **LTS (Long-Term Support)** version for your operating system (recommended for most users).
-3. Install Node.js by following the on-screen instructions.  
-   **Note**: This will also install `npm` (Node Package Manager), which is required to manage project dependencies.
-
+2. Download the **LTS (Long-Term Support)** version for your operating system (recommended for most users).   
+   ![alt text](image-2.png)  
+3. Open the node downloader under recent download history in the top right once it has finished downloading.  
+   ![alt text](image-3.png)
+4. Continue clicking through the downloader until you have reached the custom setup section, and make sure add to Path is selected.    
+   ![alt text](image-4.png)
+5. Continue clicking through the downloaded until you have reached the tool for native moduels section, and make the box is selected.  
+   ![alt text](image-5.png)
+6. Fianlly, after all the previous steps are completed click install and wait for node to finish installing fully
+   ![alt text](image-6.png)
+   
 ---
 
 ### 2. Download and Install Visual Studio Code (VS Code)
