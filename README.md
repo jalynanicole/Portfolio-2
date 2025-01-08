@@ -61,7 +61,7 @@ If you don’t already have a GitHub account, create one at [github.com](https:/
    - Run the following command to clone the repository into a folder:
      ```bash
      git init
-     git clone https://github.com/jzmasiv/Architecural-Student-Portfolio-1
+     git clone https://github.com/jugsidhu/Architectural-Student-Portfolio-2.git
      ```
 
 3. **Open the Cloned Folder in VS Code:**
