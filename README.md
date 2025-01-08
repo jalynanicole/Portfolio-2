@@ -5,8 +5,8 @@
 [Github Link for Template 1](https://github.com/jzmasiv/Architecural-Student-Portfolio-1)  
 
 ![alt text](image-1.png)  
-[Website Preview for Template 1](https://architectural-student-portfolio-2.vercel.app/)  
-[Github Link for Template 1](https://github.com/jugsidhu/Architectural-Student-Portfolio-2)  
+[Website Preview for Template 2](https://architectural-student-portfolio-2.vercel.app/)  
+[Github Link for Template 2](https://github.com/jugsidhu/Architectural-Student-Portfolio-2)  
 
 This is a personal portfolio web application built using [Vite](https://vitejs.dev/). It showcases one's projects, skills, and contact information as a passionate architectural student.
 
