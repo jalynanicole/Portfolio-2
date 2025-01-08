@@ -63,9 +63,12 @@ If you don’t already have a GitHub account, create one at [github.com](https:/
      git init
      git clone https://github.com/jugsidhu/Architectural-Student-Portfolio-2.git
      ```
+     ![alt text](image-7.png)   
 
 3. **Open the Cloned Folder in VS Code:**
-   - Use the **File > Open Folder** option in VS Code to open the folder where you cloned the repository.
+   - Use the **File > Open Folder** option in VS Code to open the folder where you cloned the repository.  
+     ![alt text](image-8.png)
+     ![alt text](image-9.png)   
 
 ---
 
