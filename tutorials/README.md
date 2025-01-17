@@ -6,27 +6,27 @@ Welcome to the **Tutorials** folder! Here you’ll find step-by-step guides to h
 
 ## **Contents**
 
-1. **[How to Update the Text Color of Your Website](Pdf-Files/How to Update the Text Color of Your Website.pdf)**
+1. **[How to Update the Text Color of Your Website](Pdf-Files/How%20to%20Update%20the%20Text%20Color%20of%20Your%20Website.pdf)**
    - Learn how to change the text color in your website’s `style.css` file.
    - Includes links to a color index and external resources for more options.
 
-2. **[How to Update the Background Color of Your Website](Pdf-Files/How to Update the Background Color of Your Website.pdf)**
+2. **[How to Update the Background Color of Your Website](Pdf-Files/How%20to%20Update%20the%20Background%20Color%20of%20Your%20Website.pdf)**
    - Update your site’s background color by modifying the `style.css` file.
    - Find tips for selecting colors and using RGB hex codes.
 
-3. **[How to Change Any Text on the Website](Pdf-Files/How to Change any text on the Website.pdf)**
+3. **[How to Change Any Text on the Website](Pdf-Files/How%20to%20Change%20any%20text%20on%20the%20Website.pdf)**
    - A guide to locating and editing text displayed on your webpage.
    - Features examples for searching and modifying specific text.
 
-4. **[How to Change the Images on Your Website](Pdf-Files/How to Change the Images on your Website.pdf)**
+4. **[How to Change the Images on Your Website](Pdf-Files/How%20to%20Change%20the%20Images%20on%20your%20Website.pdf)**
    - Instructions for fixing image bugs and replacing images in your project.
    - Provides detailed steps for adding new image sets.
 
-5. **[Modifying Your Website for Assignment 1](Pdf-Files/Modifying your Website for Assignment 1.pdf)**
+5. **[Modifying Your Website for Assignment 1](Pdf-Files/Modifying%20your%20Website%20for%20Assignment%201.pdf)**
    - Focused on tailoring your website to meet the requirements of Assignment 1.
    - Includes steps for commenting out unnecessary code and adding custom images.
 
-6. **[What to Do After You Have Made Your Changes](Pdf-Files/What to do after you have made your changes.pdf)**
+6. **[What to Do After You Have Made Your Changes](Pdf-Files/What%20to%20do%20after%20you%20have%20made%20your%20changes.pdf)**
    - Recap on launching and testing your local webpage after making updates.
    - Tips for resolving errors during setup and running your website locally.
 
