@@ -52,9 +52,6 @@ This section compiles useful messages shared on Discord, covering common issues 
 2. **[Working Directory](Discord-Messages/Working-Directory/README.md)**
    - Ensuring you are in the correct working directory is crucial.
 
-3. **[General Discord Messages](Discord-Messages/README.md)**
-   - Additional tips, troubleshooting steps, and suggestions from previous Discord messages are stored in this folder.
-
 ---
 
 ## **How to Use These Tutorials**
