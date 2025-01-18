@@ -1,4 +1,4 @@
-#How to Update your Description to have a Scroll Mechanic 
+# How to Update your Description to have a Scroll Mechanic
 
 If you feel restricted for space in the text under your photos, just copy the code below and replace #description in your style.css file with said code. It will make it so that the text box is scrollable, so you don't have to worry about running out of space. Please modify the text box to fit your aesthetic! 
 ```bash
