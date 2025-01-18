@@ -1,4 +1,4 @@
-#How to Imbed Links into your Images
+# How to Imbed Links into your Images
 
 If you want to embed links into your images, you would have to replace thise code found in main.js:
 If you want to embed links into your images, you would have to replace this code found in main.js:
