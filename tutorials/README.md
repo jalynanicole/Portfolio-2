@@ -51,7 +51,10 @@ This section compiles useful messages shared on Discord, covering common issues 
    - If you want to make changes to your already deployed Vercel website, follow these steps:
 
 2. **[Working Directory](Discord-Messages/Working-Directory/README.md)**
-   - Ensuring you are in the correct working directory is crucial.
+   - Ensuring you are in the correct working directory is crucial.  
+
+3. **[What is a Directory](Discord-Messages/What-Is-A-Directory/README.md)**
+   - Explains what a directory is.
 
 ---
 
