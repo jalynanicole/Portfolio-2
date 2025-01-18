@@ -21,6 +21,7 @@ Welcome to the **Tutorials** folder! Here you’ll find step-by-step guides to h
 4. **[How to Change the Images on Your Website](Pdf-Files/How%20to%20Change%20the%20Images%20on%20your%20Website.pdf)**
    - Instructions for fixing image bugs and replacing images in your project.
    - Provides detailed steps for adding new image sets.
+   - **Download Required Files**: [Pdf-Files/houseDrawings.zip](Zip-Files/houseDrawings.zip)
 
 5. **[Modifying Your Website for Assignment 1](Pdf-Files/Modifying%20your%20Website%20for%20Assignment%201.pdf)**
    - Focused on tailoring your website to meet the requirements of Assignment 1.
