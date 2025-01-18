@@ -34,24 +34,11 @@ Welcome to the **Tutorials** folder! Here you’ll find step-by-step guides to h
 
 ## **Other Features**
 
-1. **[Imbed-Links](Imbed-Links/README.md)**
+1. **[Imbed-Links](Other-Features/Imbed-Links/README.md)**
    - Learn how to add clickable links to your images on the webpage. 
-   - Example:
-     ```html
-     <div id="images">
-       <a href="https://example.com/page1" target="_blank">
-         <img src="./cubeDrawings/cube1.webp" alt="cube1" />
-       </a>
-       <a href="https://example.com/page2" target="_blank">
-         <img src="./cubeDrawings/cube2.webp" alt="cube2" />
-       </a>
-     </div>
-     ```
-   - For more details, refer to the `README.md` in the **Imbed-Links** folder.
 
-2. **[Scroll-Description](Scroll-Description/README.md)**
+2. **[Scroll-Description](Other-Features/Scroll-Description/README.md)**
    - Guides you on adding scrolling descriptions or animations to your website.
-   - This folder contains a `README.md` with detailed instructions on customizing scrolling behavior and visual effects.
 
 ---
 
