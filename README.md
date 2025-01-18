@@ -1,75 +1,140 @@
-# Tutorials
+# Portfolio Web App Template 1
 
-Welcome to the **Tutorials** folder! Here you’ll find step-by-step guides to help you modify and personalize your website. Each tutorial is designed to address a specific aspect of your site customization, from updating text and colors to working with images and assignments.
+![alt text](/README-Images/image.png)  
+[Website Preview for Template 1](https://architecural-student-portfolio-1.vercel.app/)  
+[Github Link for Template 1](https://github.com/jzmasiv/Architecural-Student-Portfolio-1)
 
----
+![alt text](/README-Images/image-1.png)  
+[Website Preview for Template 2](https://architectural-student-portfolio-2.vercel.app/)  
+[Github Link for Template 2](https://github.com/jugsidhu/Architectural-Student-Portfolio-2)
 
-## **Contents**
-
-1. **[How to Update the Text Color of Your Website](Pdf-Files/How%20to%20Update%20the%20Text%20Color%20of%20Your%20Website.pdf)**
-   - Learn how to change the text color in your website’s `style.css` file.
-   - Includes links to a color index and external resources for more options.
-
-2. **[How to Update the Background Color of Your Website](Pdf-Files/How%20to%20Update%20the%20Background%20Color%20of%20Your%20Website.pdf)**
-   - Update your site’s background color by modifying the `style.css` file.
-   - Find tips for selecting colors and using RGB hex codes.
-
-3. **[How to Change Any Text on the Website](Pdf-Files/How%20to%20Change%20any%20text%20on%20the%20Website.pdf)**
-   - A guide to locating and editing text displayed on your webpage.
-   - Features examples for searching and modifying specific text.
-
-4. **[How to Change the Images on Your Website](Pdf-Files/How%20to%20Change%20the%20Images%20on%20your%20Website.pdf)**
-   - Instructions for fixing image bugs and replacing images in your project.
-   - Provides detailed steps for adding new image sets.
-
-5. **[Modifying Your Website for Assignment 1](Pdf-Files/Modifying%20your%20Website%20for%20Assignment%201.pdf)**
-   - Focused on tailoring your website to meet the requirements of Assignment 1.
-   - Includes steps for commenting out unnecessary code and adding custom images.
-
-6. **[What to Do After You Have Made Your Changes](Pdf-Files/What%20to%20do%20after%20you%20have%20made%20your%20changes.pdf)**
-   - Recap on launching and testing your local webpage after making updates.
-   - Tips for resolving errors during setup and running your website locally.
+This is a personal portfolio web application built using [Vite](https://vitejs.dev/). It showcases one's projects, skills, and contact information as a passionate architectural student.
 
 ---
 
-## **Other Features**
+## How to Deploy This Portfolio
 
-1. **[Imbed-Links](Imbed-Links/README.md)**
-   - Learn how to add clickable links to your images on the webpage. 
-   - Example:
-     ```html
-     <div id="images">
-       <a href="https://example.com/page1" target="_blank">
-         <img src="./cubeDrawings/cube1.webp" alt="cube1" />
-       </a>
-       <a href="https://example.com/page2" target="_blank">
-         <img src="./cubeDrawings/cube2.webp" alt="cube2" />
-       </a>
-     </div>
+Follow these step-by-step instructions to deploy your portfolio on [Vercel](https://vercel.com/) and customize it using [Visual Studio Code](https://code.visualstudio.com/).
+
+---
+
+### 1. Download and Install Node.js
+
+1. Go to the [Node.js download page](https://nodejs.org/).
+2. Download the **LTS (Long-Term Support)** version for your operating system (recommended for most users).  
+   ![alt text](/README-Images/image-2.png)
+3. Open the node downloader under recent download history in the top right once it has finished downloading.  
+   ![alt text](/README-Images/image-3.png)
+4. Continue clicking through the downloader until you have reached the custom setup section, and make sure add to Path is selected.  
+   ![alt text](/README-Images/image-4.png)
+5. Continue clicking through the downloaded until you have reached the tool for native moduels section, and make the box is selected.  
+   ![alt text](/README-Images/image-5.png)
+6. Fianlly, after all the previous steps are completed click install and wait for node to finish installing fully
+   ![alt text](/README-Images/image-6.png)
+
+---
+
+### 2. Download and Install Visual Studio Code (VS Code)
+
+1. Go to the [VS Code download page](https://code.visualstudio.com/).
+2. Download the version for your operating system (Windows, macOS, or Linux).
+3. Install VS Code by following the on-screen instructions.
+
+---
+
+### 3. Create a GitHub Account
+
+If you don’t already have a GitHub account, create one at [github.com](https://github.com/).
+
+---
+
+### 4. Fork and Clone the Repository
+
+1. **Fork the Repository:**
+
+   - Scroll up this page and click the **Fork** button in the top-right corner. This creates a copy of the project under your GitHub account.
+
+2. **Open the Cloned Folder in VS Code:**
+   - Use the **File > Open Folder** option in VS Code to open the folder where you cloned the repository.  
+
+   - Copy the repository URL from your forked repository (click the green "Code" button and copy the HTTPS link).
+   - Open VS Code and open the terminal (use `Ctrl+` `` ` `` on Windows or `Cmd+` `` ` `` on macOS).
+   - Run the following command to clone the repository into a folder:
+     ```bash
+     git init
+     git clone https://github.com/jugsidhu/Architectural-Student-Portfolio-2.git
+     cd [your forked(copied) repo link]
+     git remote add origin [your forked repo link]
      ```
-   - For more details, refer to the `README.md` in the **Imbed-Links** folder.
-
-2. **[Scroll-Description](Scroll-Description/README.md)**
-   - Guides you on adding scrolling descriptions or animations to your website.
-   - This folder contains a `README.md` with detailed instructions on customizing scrolling behavior and visual effects.
-
----
-
-## **How to Use These Tutorials**
-
-1. **Start with the Basics**: If you're new to web development, begin with tutorials on text and color changes.
-2. **Follow in Sequence**: Some tutorials, like image updates, reference earlier guides. It’s best to follow them in order.
-3. **Test as You Go**: Keep your local server running to see real-time changes as you work through each guide.
-4. **Ask for Help**: If you encounter issues, feel free to reach out via the provided support channels.
+   - make sure that the last folder in the terminal path is that one containing all the code files
+     ![alt text](/README-Images/image-8.png)
+     ![alt text](/README-Images/image-9.png)
+     ![alt text](/README-Images/image-7.png)
 
 ---
 
-## **Helpful Tips**
+### 5. Install Project Dependencies and Running Locally
+MAKE SURE THAT ALL COMMANDS AND UPDATES ARE RAN UNDER THE CORRECT TERMINAL PATH: THE LAST FOLDER IN THE TERMINAL PATH IS THE ONE CONTAINING ALL THE CODE FILES
 
-- **Save Regularly**: Always save your changes (Ctrl+S) to ensure updates are applied to your webpage.
-- **Use Version Control**: Consider using Git to manage changes and prevent loss of work.
-- **Experiment**: While the tutorials cover specific tasks, feel free to explore additional customizations.
+1. **Install Dependencies:**
+
+   - In the VS Code terminal, navigate to the project folder (if not already there) and run:
+     ```bash
+     npm install
+     ```
+
+2. **Run the Development Server:**
+
+   - Start the local server by running:
+     ```bash
+     npm run dev
+     ```
+   - Open the browser and navigate to the URL provided by the terminal (usually `http://localhost:5173`).
+
+3. **Customize Your Portfolio:**
+   - Edit the project files (data.js) to update them with your personal information.
+   - The browser will automatically update when you save changes and refresh the page.
 
 ---
 
-For any additional questions, refer to your project’s Discord group or support documentation. Happy coding!
+### 6. Set Up a Vercel Account
+
+1. Go to [vercel.com](https://vercel.com/) and click start deploying.  
+   ![alt text](/README-Images/image-10.png)
+2. Click continue with github and login with your github account  
+   ![alt text](/README-Images/image-11.png)
+
+---
+
+### 7. Deploy to Vercel
+
+1. **Push Changes to GitHub:**
+
+   - After customizing the portfolio, push the changes to your GitHub repository:
+     ```bash
+     git add .
+     git commit -m "Updated portfolio"
+     git push -u origin main
+     ```
+
+2. **Deploy on Vercel:**
+
+   - Import the repository from GitHub.  
+      ![alt text](/README-Images/image-12.png)
+   - Follow the setup instructions and click **Deploy**.
+     ![alt text](/README-Images/image-13.png)
+
+3. **Access Your Portfolio:**
+   - Once deployed, access your live portfolio using the URL provided by Vercel.  
+      ![alt text](/README-Images/image-14.png)
+
+---
+
+You're all set! 🎉 Your portfolio is now live and ready to share.
+
+### More Resources (for Portfolio Customization)
+
+- https://www.w3schools.com/w3css/defaulT.asp
+- https://www.w3schools.com/html/
+- https://vite.dev/
+- https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
