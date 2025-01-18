@@ -42,6 +42,21 @@ Welcome to the **Tutorials** folder! Here you’ll find step-by-step guides to h
 
 ---
 
+## **Previous Discord Messages**
+
+This section compiles useful messages shared on Discord, covering common issues and best practices for managing your project.
+
+1. **[Update Vercel](Discord-Messages/Update-Vercel/README.md)**
+   - If you want to make changes to your already deployed Vercel website, follow these steps:
+
+2. **[Working Directory](Discord-Messages/Working-Directory/README.md)**
+   - Ensuring you are in the correct working directory is crucial.
+
+3. **[General Discord Messages](Discord-Messages/README.md)**
+   - Additional tips, troubleshooting steps, and suggestions from previous Discord messages are stored in this folder.
+
+---
+
 ## **How to Use These Tutorials**
 
 1. **Start with the Basics**: If you're new to web development, begin with tutorials on text and color changes.
