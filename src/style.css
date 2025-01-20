@@ -85,15 +85,17 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: 100%; /* Adjust height as needed */
-  margin: 20px auto; /* Center on the page */
+  margin: 40px auto; /* Center on the page */
 }
 
 #video-animation video {
-  max-width: 100%; /* Ensure the video scales properly */
+  width: 100%;
+  max-width: 600px; /* Ensure the video scales properly */
   height: auto;
+  border: 1px solid #ddd
+  border-radius: 8px;
 }
 
-#video-animation {width: 400px;}
 
 #drawings-container {
   margin: 20px auto;
