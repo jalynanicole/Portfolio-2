@@ -43,21 +43,25 @@ a:hover {
 }
 
 .project-btn {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background: linear-gradient(45deg, #ff7e5f, #feb47b);
-  color: white;
+  padding: 12px 30px;
+  border: 1px solid #555;
+  border-radius: 50px;
+  background: transparent;
+  color: #333;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
   font-weight: bold;
   margin: 10px;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: all 0.3s;
 }
 
 .project-btn:hover {
-  transform: translateY(-3px);
+  transform: translateY(-2px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  background-color: #333;
+  color: #fff;
 }
 
 #viewer-container {
