@@ -24,20 +24,22 @@ header {
 }
 
 #links {
-  margin: 20px auto;
+  margin: 30px auto;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 a {
   text-decoration: none;
-  color: #0073e6;
+  color: #555;
   font-weight: bold;
+  font-size: 18px;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #000
 }
 
 .project-btn {
