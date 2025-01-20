@@ -59,7 +59,6 @@ a:hover {
 
 .project-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
   background-color: #333;
   color: #fff;
 }
