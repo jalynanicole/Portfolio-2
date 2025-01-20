@@ -7,9 +7,13 @@ body {
 }
 
 header {
-  padding: 20px;
-  background-color: #222;
-  color: white;
+  padding: 50px 20px;
+  background-color: #faf9f6;
+  color: #111;
+  text-transform:uppercase;
+  letter-spacing: 2px;
+  font-size: 36px;
+  font-weight: 600;
 }
 
 #bio {
