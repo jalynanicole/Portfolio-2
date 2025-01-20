@@ -1,5 +1,5 @@
 export const data = {
-  name: "John Doe",
+  name: "Jalyna Neudorf",
   bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
   contact: {
     email: "john.doe@gmail.com",
