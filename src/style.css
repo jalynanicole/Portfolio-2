@@ -64,14 +64,16 @@ a:hover {
 }
 
 #viewer-container {
-  margin: 20px auto;
-  width: 400px;
+  margin: 40px auto;
+  width: 600px;
   height: 400px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  border: 1px solid #ccc;
+  border: 1px solid #eee;
   background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 #model-container {
