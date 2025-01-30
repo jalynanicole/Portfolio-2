@@ -15,7 +15,7 @@ Object.keys(data.contact).forEach((key) => {
 
 function populateModelButtons() {
   const modelPaths = [
-    { path: "3d_models/project1/model.obj", label: "Baymax" },
+    { path: "3d_models/project1/OBJ Baymax OG.obj", label: "Baymax" },
     { path: "3d_models/project2/model.obj", label: "Project 2" },
     { path: "3d_models/project3/model.obj", label: "Project 3" },
   ];
