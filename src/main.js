@@ -43,3 +43,63 @@ function loadModel(modelPath, index) {
 }
 
 populateModelButtons();
+
+import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
+import * as THREE from 'three';
+
+// Function to create the scene and load the model
+function createThreeScene('#model-container', 'public/3d_models/project1/OBJ_Baymax_OG.obj')
+{
+  
+  // Set up the scene
+  const scene = new THREE.Scene();
+  
+  // Set up the camera
+  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+  
+  // Set up the renderer
+  const renderer = new THREE.WebGLRenderer();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  document.querySelector(containerSelector).appendChild(renderer.domElement);
+
+  // Set up lighting
+  const light = new THREE.AmbientLight(0x404040); // Ambient light
+  scene.add(light);
+
+  // Load the OBJ model
+  const loader = new OBJLoader();
+  loader.load(
+    modelPath,
+    function (object) {
+      // After loading, position the model
+      object.position.set(10, 0, -10); // Adjust position (X, Y, Z coordinates)
+      
+      // Optionally scale the model if needed
+      object.scale.set(0.5, 0.5, 0.5); // Scale the model (optional)
+      
+      // Add the model to the scene
+      scene.add(object);
+      
+      // Render the scene
+      animate();
+    },
+    function (xhr) {
+      // Optional: Track progress
+      console.log(`Model loaded: ${Math.round((xhr.loaded / xhr.total) * 100)}%`);
+    },
+    function (error) {
+      console.error("Error loading model:", error);
+    }
+  );
+
+  // Animation loop to render the scene
+  function animate() {
+    requestAnimationFrame(animate);
+    renderer.render(scene, camera);
+  }
+
+  // Set the camera position and orientation
+  camera.position.z = 50;
+}
+
+export { createThreeScene };
