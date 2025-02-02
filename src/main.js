@@ -17,7 +17,7 @@ function populateModelButtons() {
   const modelPaths = [
     { path: "3d_models/project1/model.obj", label: "Baymax" },
     { path: "3d_models/project2/model.obj", label: "Project 2" },
-    { path: "3d_models/project3/model.obj", label: "Project 3" },
+    { path: "public/3d_models/project3/website_baymax.obj", label: "Project 3" },
   ];
 
   const controls = document.getElementById("controls");
