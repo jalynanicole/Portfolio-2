@@ -114,10 +114,6 @@ a:hover {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.interop {
-  width: 600px;
-  height: auto;
-}
 #description {
   margin: 40px auto;
   width: 600px;
